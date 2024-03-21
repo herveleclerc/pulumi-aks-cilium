@@ -1,0 +1,10 @@
+name: pulumi-cilium-aks
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: create a cilium cluster mesh on azure aks
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/b8f0002d-905f-4d86-a186-ea91eafddad8.zip
