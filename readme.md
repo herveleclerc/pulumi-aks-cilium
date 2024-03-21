@@ -26,7 +26,7 @@ cilium install --set cluster.name=k8s-cluster-ne \
 --context k8s-cluster-ne
 
 
-kubectl get secret -n kube-system cilium-ca -o yaml --context k8s-cluster-ne | k neat > cilium-ca.yaml 
+kubectl get secret -n kube-system cilium-ca -o yaml --context k8s-cluster-ne | kubectl neat > cilium-ca.yaml 
 
 
 cilium install --set cluster.name=k8s-cluster-we \
