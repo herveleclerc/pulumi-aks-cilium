@@ -99,5 +99,4 @@ done
 
 ```
 
-Vérifiez quel vous avez bien ce genre de réponses
 
